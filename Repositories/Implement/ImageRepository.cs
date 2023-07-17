@@ -41,7 +41,7 @@ namespace NHNT.Repositories.Implement
             _context.Images.Update(image);
             _context.SaveChanges();
         }
-                
+
         public void Delete(int id)
         {
             Image image = this.GetById(id);
